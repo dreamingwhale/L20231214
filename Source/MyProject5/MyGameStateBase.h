@@ -3,17 +3,16 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/GameModeBase.h"
-#include "MyGameModeBase.generated.h"
+#include "GameFramework/GameStateBase.h"
+#include "MyGameStateBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class MYPROJECT5_API AMyGameModeBase : public AGameModeBase
+class MYPROJECT5_API AMyGameStateBase : public AGameStateBase
 {
 	GENERATED_BODY()
-	
 public:
-	AMyGameModeBase();
+	AMyGameStateBase();
 };
